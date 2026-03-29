@@ -15,3 +15,5 @@ npm-debug.log
 .envrc
 .direnv
 .kodrdriv*
+package-lock.json
+.kodrdriv*
