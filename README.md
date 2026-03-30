@@ -1,4 +1,4 @@
-# @kjerneverk/riotplan-catalyst
+# @planvokter/riotplan-catalyst
 
 Catalyst system for RiotPlan - composable, layerable guidance packages that shape the entire planning process.
 
@@ -16,7 +16,7 @@ A catalyst is a collection of resources that affects the questions asked and the
 ## Installation
 
 ```bash
-npm install @kjerneverk/riotplan-catalyst
+npm install @planvokter/riotplan-catalyst
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install @kjerneverk/riotplan-catalyst
 ### Loading a Single Catalyst
 
 ```typescript
-import { loadCatalyst } from '@kjerneverk/riotplan-catalyst';
+import { loadCatalyst } from '@planvokter/riotplan-catalyst';
 
 // Load a catalyst from a directory
 const result = await loadCatalyst('./my-catalyst');
@@ -40,7 +40,7 @@ if (result.success) {
 ### Loading Multiple Catalysts
 
 ```typescript
-import { resolveCatalysts } from '@kjerneverk/riotplan-catalyst';
+import { resolveCatalysts } from '@planvokter/riotplan-catalyst';
 
 // Resolve multiple catalysts by path
 const catalysts = await resolveCatalysts([
@@ -55,7 +55,7 @@ console.log(`Loaded ${catalysts.length} catalysts`);
 ### Merging Catalysts
 
 ```typescript
-import { resolveCatalysts, mergeCatalysts } from '@kjerneverk/riotplan-catalyst';
+import { resolveCatalysts, mergeCatalysts } from '@planvokter/riotplan-catalyst';
 
 // Load and merge catalysts
 const catalysts = await resolveCatalysts(['./catalyst-1', './catalyst-2']);
@@ -74,7 +74,7 @@ import {
   readPlanManifest, 
   writePlanManifest,
   addCatalystToManifest 
-} from '@kjerneverk/riotplan-catalyst';
+} from '@planvokter/riotplan-catalyst';
 
 // Read plan manifest
 const manifest = await readPlanManifest('./my-plan');
