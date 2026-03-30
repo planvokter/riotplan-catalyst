@@ -14,6 +14,6 @@ pnpm-lock.yaml
 npm-debug.log
 .envrc
 .direnv
-.kodrdriv*
 package-lock.json
-.kodrdriv*
+.kodrdriv/*
+!.kodrdriv/config.yaml

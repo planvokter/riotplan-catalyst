@@ -1,5 +1,5 @@
 {
-  "name": "@kjerneverk/riotplan-catalyst",
+  "name": "@planvokter/riotplan-catalyst",
   "version": "1.0.17-dev.0",
   "description": "Catalyst system for RiotPlan - composable, layerable guidance packages for plan creation",
   "type": "module",
@@ -55,9 +55,10 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kjerneverk/riotplan-catalyst"
+    "url": "https://github.com/planvokter/riotplan-catalyst"
   },
   "publishConfig": {
+    "access": "public",
     "tag": "dev"
   }
 }
